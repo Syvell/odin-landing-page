@@ -5,12 +5,32 @@
     padding: 0;
 }
 
-.header, .footer, .hero{
+.full-blue-container, .full-white-container, .full-gray-container {
+    width: 100%;
+}
+
+.full-blue-container {
     background-color: #1F2937;
     color: white;
-    width: 100%;
-    
 }
+
+.full-gray-container {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.full-white-container {
+    background-color: #FFF;
+    color: #000;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
 
 .header {
     display: flex;

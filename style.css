@@ -28,7 +28,7 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 
@@ -61,6 +61,10 @@ nav a {
     width:50%; 
 }
 
+.col-4 {
+    max-width: 25%;
+}
+
 .hero {
     padding: 10px 20px;
 }
@@ -91,4 +95,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blue-box {
+    width: 50px;
+    height: 80px;
+    border: 2px solid #3882F6;
+    align-self: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }

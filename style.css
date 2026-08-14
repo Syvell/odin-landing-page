@@ -138,3 +138,24 @@ button {
     font-weight: 700;
     padding-top: 10px;
 }
+
+.action {
+    background-color: #3882F6;
+    width: 100%;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action-button {
+    border: 3px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
